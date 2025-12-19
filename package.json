@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "react": "19.2.3",
+    "react-aria-components": "1.14.0",
+    "react-dom": "19.2.3",
+    "tailwindcss": "4.1.18",
+    "tailwindcss-react-aria-components": "2.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.18",
+    "@vitejs/plugin-react": "5.1.2",
+    "prettier": "^3.7.4",
+    "typescript": "5.9.3",
+    "vite": "7.3.0"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "react-aria-components": "patches/react-aria-components.patch"
+    }
+  }
+}
